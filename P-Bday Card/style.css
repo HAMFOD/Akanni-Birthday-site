@@ -1,0 +1,77 @@
+@font-face {
+src: url("../images/Gafta.ttf");
+font-family: Gaa;
+}
+
+body {
+    margin: 20px;
+    background-color: #157181;
+    text-align: center;
+    font-family: Gaa;
+    text-shadow: 0px 0px 2px white;
+
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ak-img {
+    height: 200px;
+    width: 180px;
+    border: 3px solid #f7c00d;
+    border-radius: 50%;
+    background-image: url("../images/AK.jpg");
+    background-size: cover;
+
+}
+
+.bday-date {
+    background:linear-gradient(#f7c00d, #0d4c57);
+    padding: 10px;
+    height: fit-content;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+.bday-age {
+    background:linear-gradient(#f7c00d, #0d4c57);
+    padding: 10px;
+    height: fit-content;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.gift-cover {
+    background-image: url("../images/gift-cover.png");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#Happy-gif:hover{
+    background-image: url("../images/happy-gif.webp");
+    background-size: cover;
+}
+#bday-cake:hover {
+    background-image: url("../images/hpy-bday.webp");
+    background-size: cover;
+}
+#genius-gif:hover {
+    background-image: url("../images/genius-gif.webp");
+    background-size: contain;
+}
+#love-gif:hover {
+    background-image: url("../images/lovely-gif.webp");
+    background-size: contain;
+}
+#badass-gif:hover {
+    background-image: url("../images/basass-gif.webp");
+    background-size: contain;
+}
+#span1 {
+   font-style: italic;
+}
